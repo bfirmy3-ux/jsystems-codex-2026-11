@@ -1,0 +1,26 @@
+{
+  "$description": "Observed Allegro homepage styles, 2026-11-05. Semantic names are an interpretation, not an official Allegro specification.",
+  "source": { "url": "https://allegro.pl/", "viewport": { "width": 1440, "height": 1000 }, "theme": "light", "method": "Playwright CLI, headed Chrome, visible rendered components" },
+  "colors": {
+    "brand": { "primary": "#FF5A00", "accent": "#422779", "success": "#107B1E" },
+    "background": { "default": "#FFFFFF", "light": "#ECEFF1", "footer": "#3A4E58", "promotion": "rgba(14, 14, 14, 0.08)" },
+    "text": { "primary": "rgba(0, 0, 0, 0.87)", "secondary": "rgba(0, 0, 0, 0.54)", "muted": "#767676", "onDark": "#FFFFFF", "action": "#008673" }
+  },
+  "typography": {
+    "fontFamily": { "primary": "Inter, sans-serif", "header": "\"Open Sans\", sans-serif", "availableSecondary": "Roboto, sans-serif" },
+    "fontWeights": { "light": 300, "regular": 400, "medium": 500, "bold": 700 },
+    "fontSize": { "sm": "12px", "base": "14px", "md": "16px", "lg": "20px", "price": "22px", "xl": "24px" },
+    "lineHeight": { "caption": "18px", "body": "20px", "headerBody": "21px", "searchControl": "40px" }
+  },
+  "spacing": { "1": "4px", "2": "8px", "3": "12px", "4": "16px", "6": "24px", "10": "40px" },
+  "borderRadius": { "none": "0px", "sm": "2px", "md": "4px", "control": "8px", "card": "16px", "circle": "100%" },
+  "components": {
+    "button": { "primary": { "backgroundColor": "#FF5A00", "color": "#FFFFFF", "padding": "0px", "height": "40px", "borderRadius": "2px", "fontSize": "16px", "fontWeight": 700, "letterSpacing": "2px", "textTransform": "uppercase" } },
+    "header": { "backgroundColor": "#FFFFFF", "padding": "0px", "height": "128px", "fontFamily": "\"Open Sans\", sans-serif", "searchRowHeight": "76px" },
+    "nav": { "color": "rgba(0, 0, 0, 0.87)", "fontSize": "14px", "fontWeight": 400, "iconGroupGap": "6px", "categoryButtonPadding": "8px 16px 8px 24px" },
+    "input": { "color": "rgba(0, 0, 0, 0.87)", "fontFamily": "\"Open Sans\", sans-serif", "fontSize": "14px", "height": "40px", "padding": "8px", "borderRadius": "2px 0px 0px 2px" },
+    "card": { "backgroundColor": "#FFFFFF", "borderRadius": "16px" },
+    "layout": { "pageGutter": "24px" }
+  },
+  "limitations": ["Homepage observation only; no inferred error color or interaction states.", "Campaign banners rotate and are not permanent brand tokens.", "Some lazy sections remained loading; source site logged tracker failures and browser AI warnings."]
+}
